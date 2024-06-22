@@ -20,7 +20,6 @@ if (isset($_POST["login"])) {
     }
     $error=true;
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -39,7 +38,7 @@ if (isset($_POST["login"])) {
 
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
         <div class="row border rounded-5 p-3 bg-white shadow box-area">
-            <div class="col-md-6 rounded-4 d-flex justify-content-center align-items-center flex-column left-box" style="background: #103cbe;">
+            <div class="col-md-6 d-flex justify-content-center align-items-center flex-column left-box">
                 <div class="featured-image mb-3">
                     <img src="images/tofi.png" class="img-fluid" style="width: 180px;">
                 </div>
